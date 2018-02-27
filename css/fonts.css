@@ -1,0 +1,59 @@
+	@font-face {
+	font-family: 'Fregat-BoldItalic';
+	src: url('../fonts/Fregat-BoldItalic/Fregat-BoldItalic.eot');
+	src: url('../fontsFregat-BoldItalic/Fregat-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Fregat-BoldItalic/Fregat-BoldItalic.woff') format('woff'),
+		url('../fonts/Fregat-BoldItalic/Fregat-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+	}
+
+	@font-face {
+	font-family: 'Fregat-Italic';
+	src: url('../fonts/Fregat-Italic/Fregat-Italic.eot');
+	src: url('../fonts/Fregat-Italic/Fregat-Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Fregat-Italic/Fregat-Italic.woff') format('woff'),
+		url('../fonts/Fregat-Italic/Fregat-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+	}
+
+	@font-face {
+	font-family: 'Fregat';
+	src: url('../fonts/Fregat/Fregat.eot');
+	src: url('../fonts/Fregat/Fregat.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Fregat/Fregat.woff') format('woff'),
+		url('../fonts/Fregat/Fregat.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	}
+
+	@font-face {
+	font-family: 'Fregat-Bold';
+	src: url('../fonts/Fregat-Bold/Fregat-Bold.eot');
+	src: url('../fonts/Fregat-Bold/Fregat-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Fregat-Bold/Fregat-Bold.woff') format('woff'),
+		url('../fonts/Fregat-Bold/Fregat-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	}
+
+@font-face {
+	font-family: "PTSansRegular";
+	src: url("../fonts/PTSansRegular/PTSansRegular.eot");
+	src: url("../fonts/PTSansRegular/PTSansRegular.eot?#iefix")format("embedded-opentype"),
+		url("../fonts/PTSansRegular/PTSansRegular.woff") format("woff"),
+		url("../fonts/PTSansRegular/PTSansRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "PTSansBold";
+	src: url("../fonts/PTSansBold/PTSansBold.eot");
+	src: url("../fonts/PTSansBold/PTSansBold.eot?#iefix")format("embedded-opentype"),
+		url("../fonts/PTSansBold/PTSansBold.woff") format("woff"),
+		url("../fonts/PTSansBold/PTSansBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

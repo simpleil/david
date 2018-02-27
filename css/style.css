@@ -1,0 +1,650 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1170px;
+  width: 90%;
+  margin: 0 auto;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+header {
+  background: #fff;
+}
+header .container {
+  padding-top: 28px;
+  padding-bottom: 22px;
+}
+header .container .logo {
+  float: left;
+}
+header .container nav {
+  float: right;
+  padding-top: 10px;
+}
+header .container nav ul {
+  list-style-type: none;
+}
+header .container nav ul li {
+  display: inline-block;
+  padding-right: 9px;
+  background: url('../img/plus.png');
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+header .container nav ul li a {
+  font-size: 14px;
+  font-family: Fregat;
+  font-weight: normal;
+  text-decoration: none;
+  color: #363636;
+}
+header .container nav ul li a:hover {
+  text-shadow: 0 0 1px #63b945;
+}
+header .container nav ul li:last-child {
+  background: none;
+}
+.info {
+  background-image: url('../img/bg1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.info .container {
+  padding: 112px 15px 85px;
+}
+.info .container .about_program {
+  max-width: 540px;
+}
+.info .container .about_program h2 {
+  font-family: "Fregat-Bold";
+  font-weight: bold;
+  font-size: 28px;
+  color: #4cb027;
+  margin-bottom: 45px;
+}
+.info .container .about_program p {
+  font-family: PTSansRegular;
+  font-size: 19px;
+  margin-bottom: 35px;
+  color: #4e4e4e;
+}
+.info .container .about_program a {
+  display: inline-block;
+  border-radius: 2px;
+  font-family: PTSansBold;
+  font-size: 14.63px;
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.info .container .about_program a:hover {
+  cursor: pointer;
+}
+.info .container .about_program .order {
+  color: #fff;
+  background-color: #63b945;
+  border: none;
+  margin-right: 30px;
+  padding-right: 48px;
+  padding-left: 48px;
+  -webkit-transition: all 0.7s ease-out;
+  -moz-transition: all 0.7s ease-out;
+  -o-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
+}
+.info .container .about_program .order:hover {
+  background-color: #82c76a;
+}
+.info .container .about_program .details {
+  color: #63b945;
+  border: 1px solid #63b945;
+  background: none;
+  padding-right: 25px;
+  padding-left: 20px;
+  -webkit-transition: all 0.7s ease-out;
+  -moz-transition: all 0.7s ease-out;
+  -o-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
+}
+.info .container .about_program .details:hover {
+  background-color: #63b945;
+  color: #fff;
+}
+.program_for {
+  background: #63b945;
+}
+.program_for .container {
+  padding: 45px 15px 40px;
+}
+.program_for .container h3 {
+  color: #fff;
+  font-family: "Fregat-Bold";
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 30px;
+  float: left;
+  margin-right: 73px;
+  padding-top: 55px;
+}
+.program_for .container ul {
+  list-style-type: none;
+  float: left;
+}
+.program_for .container ul li {
+  padding-left: 15px;
+  padding-bottom: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-family: "PTSansRegular";
+  background: url('../img/arrow.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+#program {
+  background-color: #fff;
+}
+#program .container {
+  padding-top: 65px;
+  padding-bottom: 40px;
+}
+#program .container h2 {
+  color: #4cb027;
+  font-family: "Fregat-Bold";
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+#program .container .prog_david {
+  color: #313131;
+  font-family: "PTSansRegular";
+  font-size: 19px;
+  text-align: center;
+  max-width: 995px;
+  margin-bottom: 36px;
+}
+#program .container .program_steps {
+  margin-bottom: 65px;
+  padding-top: 45px;
+}
+#program .container .program_steps .steps p {
+  text-align: left;
+  padding-left: 25px;
+  font-size: 15px;
+  font-family: "PTSansRegular";
+  color: #666666;
+  margin-top: 25px;
+  max-width: 445px;
+  width: 100%;
+  line-height: 23px;
+  background: url('../img/done.png');
+  background-repeat: no-repeat;
+  background-position: 0 2px;
+}
+#program .container .program_steps .left_col {
+  float: left;
+  margin-right: 45px;
+}
+#program .container .program_steps .right_col {
+  float: left;
+}
+#program .container .method_steps p {
+  font-size: 15px;
+  font-family: "PTSansRegular";
+  color: #a2a2a2;
+  line-height: 22.5px;
+  text-align: center;
+  text-shadow: 0 0 0.1px #a2a2a2;
+}
+.contacts {
+  background: #ddffcc;
+}
+.contacts .container {
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 65px;
+}
+.contacts .container .contact_title {
+  margin-bottom: 50px;
+}
+.contacts .container .contact_title h2 {
+  color: #707070;
+  font-family: "Fregat-Bold";
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contacts .container .contact_title p {
+  color: #a2a2a2;
+  text-align: center;
+  font-size: 17px;
+  font-family: "PTSansRegular";
+  text-shadow: 0 0 0.2px #a2a2a2;
+}
+.contacts .container .address {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.contacts .container .address .address_city {
+  text-align: center;
+  margin-right: 80px;
+  font-family: "PTSansRegular";
+  color: #656565;
+}
+.contacts .container .address .address_city h4 {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 20px;
+  padding-bottom: 6px;
+}
+.contacts .container .address .address_city h5 {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+  padding-bottom: 2px;
+}
+.contacts .container .address .address_city p {
+  font-size: 16px;
+  line-height: 20px;
+}
+.contacts .container .address .address_city:last-child {
+  margin-right: 0px;
+}
+.contacts .container .call_btn {
+  text-align: center;
+}
+.contacts .container .call_btn a {
+  display: inline-block;
+  border: 1px solid #687579;
+  margin: 0 auto;
+  color: #656565;
+  font-family: "PTSansBold";
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 65px;
+  border-radius: 3px;
+  -webkit-transition: all 0.7s ease-out;
+  -moz-transition: all 0.7s ease-out;
+  -o-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
+}
+.contacts .container .call_btn a:hover {
+  background-color: #63b945;
+  color: #fff;
+}
+#seating {
+  background: url('../img/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#seating .container {
+  padding-top: 88px;
+  padding-bottom: 88px;
+}
+#seating .container .seating_title {
+  text-align: center;
+}
+#seating .container .seating_title h2 {
+  color: #4cb027;
+  font-size: 32px;
+  font-family: "Fregat-Bold";
+  margin-bottom: 55px;
+}
+#seating .container .seating_title h4 {
+  color: #fff;
+  font-family: "PTSansBold";
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+#seating .container .seating_title p {
+  font-family: "PTSansRegular";
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 95px;
+}
+#seating .container .block_insalubrity {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 78px;
+}
+#seating .container .block_insalubrity .item {
+  color: #4cb027;
+  margin-right: 35px;
+  text-align: center;
+  width: 170px;
+  font-family: "PTSansBold";
+  padding-top: 45px;
+}
+#seating .container .block_insalubrity .item h2 {
+  font-size: 50px;
+}
+#seating .container .block_insalubrity .item p {
+  font-size: 17.1px;
+  margin-bottom: 65px;
+}
+#seating .container .block_insalubrity .item h4 {
+  font-weight: normal;
+  font-size: 22px;
+}
+#seating .container .block_insalubrity .item:last-child {
+  margin-right: 0;
+}
+#seating .container .block_insalubrity .work {
+  background: url('../img/work.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+#seating .container .block_insalubrity .tv {
+  background: url('../img/tv.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+#seating .container .block_insalubrity .comp {
+  background: url('../img/comp.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+#seating .container .block_insalubrity .food {
+  background: url('../img/food.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+#seating .container .block_insalubrity .car {
+  background: url('../img/car.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+#seating .container .block_info {
+  text-align: center;
+}
+#seating .container .block_info h3 {
+  font-family: "Fregat-Bold";
+  font-size: 24px;
+  color: #4cb027;
+  margin-bottom: 80px;
+}
+#seating .container .block_info h3 span {
+  font-size: 48px;
+}
+#seating .container .block_info h4 {
+  font-family: "PTSansBold";
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+#seating .container .block_info p {
+  font-family: "PTSansRegular";
+  font-size: 15px;
+  color: #fff;
+}
+#problems {
+  background: #fff;
+  padding-top: 105px;
+}
+#problems .container {
+  max-width: 1070px;
+}
+#problems .container h2 {
+  text-align: center;
+  color: #4cb027;
+  font-size: 30px;
+  font-family: "Fregat-Bold";
+  text-transform: uppercase;
+  margin-bottom: 65px;
+}
+#problems .container .block_problem {
+  margin-bottom: 80px;
+}
+#problems .container .block_problem .problem_info {
+  padding-top: 85px;
+  display: inline-block;
+  max-width: 560px;
+  vertical-align: top;
+  color: #666666;
+  font-family: "PTSansRegular";
+}
+#problems .container .block_problem .problem_info h4 {
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+#problems .container .block_problem .problem_info p {
+  font-size: 15px;
+}
+#problems .container .block_problem .problem_info p a {
+  font-size: 15px;
+  font-weight: bold;
+  color: #666666;
+  text-decoration: none;
+}
+#problems .container .block_problem .problem_info p a svg {
+  padding-top: 4px;
+}
+#problems .container .block_problem .problem_info a {
+  font-size: 15px;
+  font-weight: bold;
+  color: #666666;
+  text-decoration: none;
+}
+#problems .container .block_problem .problem_info a svg {
+  padding-top: 4px;
+}
+#problems .container .block_problem img {
+  display: inline-block;
+  width: 423px;
+  min-width: 400px;
+  height: auto;
+}
+#problems .container .block_problem .num1 {
+  background: url("../img/1.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  margin-right: 75px;
+}
+#problems .container .block_problem .num2 {
+  background: url("../img/2.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  margin-left: 65px;
+}
+#problems .container .block_problem .num3 {
+  background: url("../img/3.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  margin-right: 60px;
+  max-width: 580px;
+}
+#problems .container .block_problem .num4 {
+  background: url("../img/4.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  max-width: 570px;
+  margin-left: 55px;
+}
+#therapy {
+  background: #ccffcc;
+}
+#therapy .container {
+  padding-top: 82px;
+  padding-bottom: 95px;
+}
+#therapy .container h2 {
+  font-family: "Fregat-Bold";
+  font-size: 30px;
+  color: #4cb027;
+  text-align: center;
+  margin-bottom: 40px;
+}
+#therapy .container .therapy_block {
+  padding-left: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#therapy .container .therapy_block .therapy_step {
+  max-width: 330px;
+}
+#therapy .container .therapy_block .therapy_step h4 {
+  color: #666666;
+  font-family: "Fregat-Bold";
+  font-size: 19px;
+  margin-bottom: 15px;
+}
+#therapy .container .therapy_block .therapy_step p {
+  font-family: color: #313131;
+  font-size: 16px;
+  font-family: "PTSansRegular";
+}
+#david_methods .container {
+  padding-top: 80px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+#david_methods .container h2 {
+  margin-bottom: 80px;
+  text-align: center;
+  color: #4cb027;
+  font-size: 30px;
+  font-family: "Fregat-Bold";
+  text-transform: uppercase;
+}
+#david_methods .container .method {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#david_methods .container .method .method_info {
+  padding-left: 40px;
+}
+#david_methods .container .method .method_info h4 {
+  color: #666666;
+  font-family: "PTSansBold";
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+#david_methods .container .method .method_info p {
+  color: #666666;
+  font-family: "PTSansRegular";
+}
+.order_info {
+  background: #f1f2f2;
+}
+.order_info .container {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.order_info .container .order_title {
+  text-align: center;
+}
+.order_info .container .order_title h2 {
+  color: #4cb027;
+  font-size: 32px;
+  font-family: "Fregat-Bold";
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.order_info .container .order_title p {
+  color: #a2a2a2;
+  font-size: 17px;
+  font-family: "PTSansRegular";
+  margin-bottom: 60px;
+}
+.order_info .container .address {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.order_info .container .address .address_city {
+  padding-right: 80px;
+  font-family: "PTSansRegular";
+  color: #656565;
+  text-align: center;
+}
+.order_info .container .address .address_city h4 {
+  font-weight: normal;
+  font-size: 21px;
+}
+.order_info .container .address .address_city h5 {
+  font-weight: normal;
+  font-size: 16px;
+}
+.order_info .container .address .address_city p {
+  font-weight: normal;
+  font-size: 16px;
+  margin-bottom: 70px;
+}
+.order_info .container .address .address_city:last-child {
+  padding-right: 0;
+}
+.order_info .container form p {
+  text-align: center;
+  color: #a2a2a2;
+  font-size: 17px;
+  font-family: "PTSansRegular";
+  padding-bottom: 60px;
+}
+.order_info .container form .input_block {
+  display: inline-block;
+  margin-bottom: 70px;
+  margin-right: 10px;
+}
+.order_info .container form .input_block label {
+  font-size: 15px;
+  color: #58595b;
+  font-family: "PTSansBold";
+  text-align: left !important;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+.order_info .container form .input_block select,
+.order_info .container form .input_block input {
+  width: 373px;
+  max-width: 100%;
+  height: 50px;
+  border: 1px solid #e9e9e9;
+  text-indent: 10px;
+  color: #939598;
+  font-size: 17px;
+  font-family: "PTSansRegular";
+}
+.order_info .container form .input_block select:focus,
+.order_info .container form .input_block input:focus {
+  border: 1px solid #4cb027;
+  outline: none;
+}
+.order_info .container form input[type="submit"] {
+  margin-top: 70px;
+  display: block;
+  margin: 0 auto;
+  background: #4cb027;
+  border: 0;
+  padding: 18px 100px;
+  border-radius: 1px;
+  color: #fff;
+  font-size: 18px;
+  font-family: "PTSansRegular";
+}
+.order_info .container form input[type="submit"]:hover {
+  background: #285d14;
+  cursor: pointer;
+}
+footer {
+  background: #4c4c4c;
+}
+footer .container p {
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-size: 12px;
+  font-family: "PTSansRegular";
+}
